@@ -43,7 +43,7 @@ const getProperty = async (req, res) => {
 
 
 const getReady = (req, res) => {
-   res.json({message: "WELCOME TO YOUR LUXURY BACKEND"})
+   res.send( "WELCOME TO YOUR LUXURY BACKEND")
 }
 
 
